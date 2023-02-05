@@ -1,0 +1,31 @@
+h1 {
+    text-align: left;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+
+p {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: url(635d5787592241.5dbc9ed390d75.gif) no-repeat;
+}
+
+
+img {
+    height: 200px;
+}

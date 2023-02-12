@@ -1,16 +1,18 @@
 h1 {
     text-align: center;
-    color: #8a2be2;
+    color: #ffffff;
+    text-shadow: 0 0 30px magenta;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
-    color: blueviolet;
+    color: rgb(255, 255, 255);
     font-size: 30px;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 30px magenta;
 }
-
 
 html,
 body {
@@ -19,10 +21,31 @@ body {
     background: url(hvhdf.gif) no-repeat;
 }
 
+.description {
+    font-size: 20pt;
+    text-align: center;
+    text-shadow: 0 0 30px magenta;
+}
 
 h2 {
     text-align: center;
     color: rgb(112, 7, 197);
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-block {
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: double;
+    border-color: yellow;
+    background-color: hsl(180, 100%, 50%, 25%);
+    backdrop-filter: blur(3px);
+}
+
+.button {
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 0, 255);
 }
